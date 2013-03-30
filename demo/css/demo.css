@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+
+body {
+	font: 400 14px 'Sanchez', serif;
+	text-align: center;	
+}
+
+h1 {
+	font-size: 6rem;
+	margin: .2em 0;
+}
+
+h2 {
+	background-color: #000;
+	border-radius: 4px;
+	color: #fff;
+	display: inline-block;
+	font-size: 1.1rem;
+	margin: .2em 0 1em;
+	padding: .1em .3em;
+}
+
+code, table {
+	display: inline-block;
+	margin: 0 auto;
+	text-align: left;
+}
+
+code {
+	margin: 0 0 3em;
+}
+
+table td,
+table th {
+	padding: .3em .8em;
+}
+
+#dl {
+	background: #000;
+	border: 4px;
+	color: #fff;
+	padding: .2em .4em;
+	position: fixed;
+	right: 15px;
+	text-decoration: none;
+	-moz-transform: rotate(-3deg);
+	-webkit-transform: rotate(5deg);
+	-o-transform: rotate(-3deg);
+	-ms-transform: rotate(-3deg);
+}

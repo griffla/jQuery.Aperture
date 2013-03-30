@@ -1,0 +1,82 @@
+@CHARSET "UTF-8";
+
+#main {
+	margin: 0 auto;
+	width: 960px;
+}
+
+.js-aperture {
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+}
+
+.ap-move-boxes-box {
+	overflow: hidden;
+	position: relative;	
+}
+
+.js-aperture .row {
+	display: block;
+}
+
+.js-aperture .aperture-move-box {
+	border: 3px solid #000;
+	border-radius: 4px;
+	display: block;
+	float: left;
+	overflow: hidden;
+	margin: 5px;
+}
+
+.js-aperture .aperture-move-box.right {
+	float: right;
+}
+
+#aperture-rotate-ccw,
+#aperture-rotate-cw {
+	border-radius: 50%;
+	display: block;
+	height: 60px;
+	opacity: .75;
+	position: absolute;
+	text-align: center;
+	z-index: 10;
+	width: 60px;
+}
+
+#aperture-rotate-ccw:hover,
+#aperture-rotate-cw:hover {
+	opacity: 1;
+}
+
+#aperture-rotate-ccw {
+	background: rgba(255,255,255,.5) url(../images/rotate-ccw.png) center center no-repeat;
+	border-bottom-left-radius: 0;
+	left: 0;
+	bottom: 0;
+}
+
+#aperture-rotate-cw {
+	background: rgba(255,255,255,.5) url(../images/rotate-cw.png) center center  no-repeat;
+	border-bottom-right-radius: 0;
+	right: 0;
+	bottom: 0;
+}
+
+/* Clearing floats */
+.clear:after,
+.wrapper:after,
+.format-status .entry-header:after {
+	clear: both;
+}
+.clear:before,
+.clear:after,
+.wrapper:before,
+.wrapper:after,
+.format-status .entry-header:before,
+.format-status .entry-header:after {
+	display: table;
+	content: "";
+}
