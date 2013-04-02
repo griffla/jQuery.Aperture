@@ -24,9 +24,7 @@ Licensed under the Creative Commons Attribution 2.5 License - http://creativecom
 		// Define the initial operations
 		init : function( options ) { 
 			methods.settings = $.extend({}, methods.defaults, options);
-			
 			columns = parseFloat(methods.settings.columns);
-
 			var $this = this;
 			
 			$this
@@ -228,7 +226,7 @@ Licensed under the Creative Commons Attribution 2.5 License - http://creativecom
 		},
 		triggerRotation : function($imgBox, $rsRow) {
 			$('body')
-			.on('click', '#aperture-rotate-ccw:not(.anim-running)', function() {
+			.on('click touchstart', '#aperture-rotate-ccw:not(.anim-running)', function() {
 				var $trigger = $(this);
 				$trigger.addClass('anim-running');
 
@@ -253,7 +251,7 @@ Licensed under the Creative Commons Attribution 2.5 License - http://creativecom
 					$trigger.removeClass('anim-running');
 				});
 			})
-			.on('click', '#aperture-rotate-cw:not(.anim-running)', function() {
+			.on('click touchstart', '#aperture-rotate-cw:not(.anim-running)', function() {
 				var $trigger = $(this);
 				$trigger.addClass('anim-running');
 				
