@@ -1,10 +1,5 @@
 @CHARSET "UTF-8";
 
-#main {
-	margin: 0 auto;
-	width: 960px;
-}
-
 .js-aperture {
 	display: block;
 	margin: 0 auto;
