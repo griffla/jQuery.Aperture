@@ -1,12 +1,13 @@
 @CHARSET "UTF-8";
 
 body {
-	font: 400 14px 'Sanchez', serif;
+	font: 300 14px 'Lato', serif;
 	text-align: center;	
 }
 
 h1 {
 	font-size: 6rem;
+	font-weight: 900;
 	margin: .2em 0;
 }
 
@@ -16,8 +17,9 @@ h2 {
 	color: #fff;
 	display: inline-block;
 	font-size: 1.1rem;
+	font-weight: 400;
 	margin: .2em 0 1em;
-	padding: .1em .3em;
+	padding: .2em .4em .3em;
 }
 
 code, table {
@@ -33,6 +35,14 @@ code {
 table td,
 table th {
 	padding: .3em .8em;
+}
+
+#main p {
+	font-size: 1.3rem;
+}
+
+.demoBox section {
+	margin-top: -100px;
 }
 
 #dl {

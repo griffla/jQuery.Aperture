@@ -2,8 +2,10 @@ $(function() {
 	
 	$('#aperture')
 	.aperture({
-		columns: '4',
-		duration : 700,
+		columns: '5',
+		duration : 400,
+		imgWidth : '190px',
+		imgHeight : '130px',
 	});
 	
 });
