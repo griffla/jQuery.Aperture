@@ -25,7 +25,7 @@
         <p>Rotate all kinds of elements clock- or counterclockwise with jQuery Aperture.</p>
         
         <section class="demoBox">
-            <div id="aperture">
+            <div id="container">
                 <a href="images/5565141297_f0ef0d567d_b.jpg" rel="lightbox[nature]" title=""><img src="images/5565141297_f0ef0d567d_m.jpg" alt="Plants: image 1 0f 9 thumb" /></a>
                 <a href="images/5535102989_d82a73e30a_b.jpg" rel="lightbox[nature]" title=""><img src="images/5535102989_d82a73e30a_m.jpg" alt="Plants: image 1 0f 9 thumb" /></a>
                 <a href="images/4990386275_4ab31b9df7_b.jpg" rel="lightbox[nature]" title=""><img src="images/4990386275_4ab31b9df7_m.jpg" alt="Plants: image 1 0f 9 thumb" /></a>
@@ -42,10 +42,12 @@
                 
                 <div>
                     <code>
-                        $('#aperture')<br>
+                        $('#container')<br>
                         .aperture({<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;columns: '4',<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;duration : 700,<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;columns: '5',<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;duration : 400,<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;imgWidth : '190px',<br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;imgHeight : '130px',<br>
                         });
             
                     </code>

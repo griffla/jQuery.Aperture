@@ -1,6 +1,6 @@
 $(function() {
 	
-	$('#aperture')
+	$('#container')
 	.aperture({
 		columns: '5',
 		duration : 400,
