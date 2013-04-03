@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>jQuery Aperture</title>
     <meta name="author" content="Joscha Schmidt">
+    <meta name="description" content="Rotate all kinds of elements clock- or counterclockwise with jQuery Aperture">
 
     <link rel="stylesheet" type="text/css" href="/css/aperture.css">
     <link rel="stylesheet" type="text/css" href="demo/css/demo.css">
@@ -25,8 +26,8 @@
     </div>
     
     <?php 
-    if(file_exists('googleanalytics.php'))
-        include 'googleanalytics.php';
+    if(file_exists('demo/googleanalytics.php'))
+        include 'demo/googleanalytics.php';
     ?>
 </body>
 </html>

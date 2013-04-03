@@ -3,8 +3,9 @@
     
 <head>
     <meta charset="utf-8">
-    <title>Demo - jQuery Aperture</title>
+    <title>Demonstration - Rotate all kinds of elements clock- or counterclockwise with jQuery Aperture</title>
     <meta name="author" content="Joscha Schmidt">
+    <meta name="description" content="A demonstration about how to rotate all kinds of elements clock- or counterclockwise with jQuery Aperture">
 
     <link rel="stylesheet" type="text/css" href="../css/aperture.css">
     <link rel="stylesheet" type="text/css" href="css/demo.css">
