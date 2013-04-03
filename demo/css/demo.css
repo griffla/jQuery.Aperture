@@ -5,6 +5,10 @@ body {
 	text-align: center;	
 }
 
+h2 a {
+	color: #fff;
+}
+
 h1 {
 	font-size: 6rem;
 	font-weight: 900;
