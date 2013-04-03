@@ -33,12 +33,12 @@
 #aperture-rotate-cw {
 	border-radius: 50%;
 	display: block;
-	height: 60px;
+	height: 70px;
 	opacity: .75;
 	position: absolute;
 	text-align: center;
 	z-index: 10;
-	width: 60px;
+	width: 70px;
 }
 
 #aperture-rotate-ccw:hover,
