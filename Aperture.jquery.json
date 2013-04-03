@@ -1,0 +1,33 @@
+{
+    "name": "Aperture",
+    "title": "jQuery Aperture",
+    "description": "Rotate all kinds of elements clock- or counterclockwise with jQuery Aperture.",
+    "keywords": [
+        "photos",
+        "text",
+        "elements",
+        "clockwise",
+        "counterclockwise",
+        "rotate",
+        "animation"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Joscha Schmidt",
+        "email" : "smith.griffla@gmail.com",
+        "url": "http://itsjoe.de/aperture"
+    },
+    "licenses": [
+        {
+            "type": "Creative Commons Attribution 2.5 License",
+            "url": "http://creativecommons.org/licenses/by/2.5/"
+        }
+    ],
+    "bugs": "https://github.com/griffla/jQuery.Aperture/issues",
+    "homepage": "http://itsjoe.de/aperture",
+    "docs": "https://github.com/griffla/jQuery.Aperture",
+    "download": "http://code.jquery.com/#aperture",
+    "dependencies": {
+        "jquery": ">=1.8"
+    }
+}
