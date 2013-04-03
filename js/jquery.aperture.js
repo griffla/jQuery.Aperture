@@ -1,5 +1,5 @@
 /*
-Aperture v0.5
+Aperture v0.6
 by Joscha Schmidt - http://www.itsjoe.de
 
 For more information, visit:
