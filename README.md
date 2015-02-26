@@ -2,7 +2,7 @@ jQuery.Aperture
 ===============
 Rotate all kinds of elements clock- or counterclockwise.
 
-by Joscha Schmidt - www.itsjoe.de/aperture/demo
+by Joscha Schmidt - http://aperture.joschaschmidt.de/demo
 
 Options
 =======
